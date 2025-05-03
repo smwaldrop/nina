@@ -31,6 +31,24 @@ img{
     z-index: -1; 
 }
 
+.text{
+    position: fixed;
+    
+
+}
+
+.text2{
+    position: fixed;
+    top: 8.2%;
+    
+}
+
+.text3{
+    position: fixed;
+    top: 12.2%;
+    
+}
+
 a{
     font-family: 'Times New Roman', Times, serif;
     font-size: 80px;
@@ -48,5 +66,5 @@ canvas{
 }
 
 a:hover{
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
