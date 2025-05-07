@@ -3,7 +3,7 @@ p{
     text-align: justify;
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 28px;
     margin-left: 25%;
     margin-right: 25%;
     align-items: center;
@@ -17,13 +17,14 @@ h1{
     color:black;
     font-family: 'Times New Roman', Times, serif;
     font-weight:normal;
-    background-color: ;
+    /* background-color: ; */
     background-size: contain;
-    font-size: 30px;
+    font-size: 47px;
     align-items: baseline;
     text-align: center;
 }
 
+/* SYDNEY - since I put your p5.js sketch inside <main>, I added the same rule you applied to images to your main here */
 img{
     position: fixed;
     top: 4%;
@@ -31,9 +32,21 @@ img{
     z-index: -1; 
 }
 
+main{
+    position: fixed;
+    top: 4%;
+    left: 12%;
+    z-index: -1;
+}
+
+#p5{
+     position: fixed;
+     top: 4%;
+     left: 20%;
+}
+
 .text{
     position: fixed;
-    
 
 }
 
@@ -49,11 +62,11 @@ img{
     
 }
 
-#square{
+.square{
     left: 12%;
 }
 
-#square2{
+.square2{
     left: 12%;
     top: 8.2%;
 }
@@ -76,4 +89,10 @@ canvas{
 
 a:hover{
     transform: scale(0.9);
+}
+
+#girl{
+    position: fixed;
+    top: 47%;
+    left: -12%;
 }
