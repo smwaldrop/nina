@@ -95,4 +95,5 @@ a:hover{
     position: fixed;
     top: 47%;
     left: -12%;
+    z-index: 1;
 }
